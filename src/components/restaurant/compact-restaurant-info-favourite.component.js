@@ -16,7 +16,6 @@ const Item = styled.View`
 `;
 
 export const CompactRestaurantInfoFavourite = ({ restaurant }) => {
-
   return (
     <Item>
       <CompactImage source={{ uri: restaurant.photos[0] }} />
