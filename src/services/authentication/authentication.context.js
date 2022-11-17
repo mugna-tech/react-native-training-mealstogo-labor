@@ -9,12 +9,12 @@ import {
 } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA_hJNe3yNDR-2wP4GqecnyEPzpUaqYfEo",
-  authDomain: "mealstogo-681ec.firebaseapp.com",
-  projectId: "mealstogo-681ec",
-  storageBucket: "mealstogo-681ec.appspot.com",
-  messagingSenderId: "551555833338",
-  appId: "1:551555833338:web:31140812771ea899da9843",
+  apiKey: "AIzaSyC1VUJ5V6nQkkMdQDz3tBvhOrqLCfufARc",
+  authDomain: "mealstogo-38f49.firebaseapp.com",
+  projectId: "mealstogo-38f49",
+  storageBucket: "mealstogo-38f49.appspot.com",
+  messagingSenderId: "804461073123",
+  appId: "1:804461073123:web:3525186c35acd470eeabd6",
 };
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
