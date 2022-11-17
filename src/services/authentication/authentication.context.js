@@ -5,7 +5,6 @@ import {
   getAuth,
   signInWithEmailAndPassword,
   onAuthStateChanged,
-  signOut,
 } from "firebase/auth";
 
 const firebaseConfig = {
@@ -26,9 +25,9 @@ export const AuthenticationContextProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [error, setError] = useState(null);
 
-  onAuthStateChanged(auth, (user) => {
-    if (user) {
-      setUser(user);
+  onAuthStateChanged(auth, (userDetail) => {
+    if (userDetail) {
+      setUser(userDetail);
       setIsLoading(false);
     } else {
       setIsLoading(false);
